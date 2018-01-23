@@ -11,6 +11,7 @@ The following variables are available:
 - `projectManagerTitle` (Title from [Project Manager](https://atom.io/packages/project-manager))
 - `filePath` (Path to current file)
 - `fileInProject` (Boolean)
+- `fileIsModified`
 - `relativeFilePath` (Path to file relative to current project)
 - `fileName` (File name)
 - `gitHead`
