@@ -1,3 +1,12 @@
+This is the [custom-window-title v1.0.4](https://github.com/pixilz/custom-window-title/tree/v1.0.4) project with the following enhancements:
+
+* Change `projectPath` (Path to project of open file)
+* Change `projectName` (Directory name of project of open file)
+* Add `projectManagerTitle` (Title from [Project Manager](https://atom.io/packages/project-manager))
+* Add `fileIsModified`
+
+---
+
 # custom-window-title package
 
 This was forked from the [custom-title](https://github.com/postcasio/custom-title) package as the owner has stopped updating for quite some time while there are stale bugs.
