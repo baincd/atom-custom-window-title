@@ -33,9 +33,7 @@ Project and git variables always refer to the first path in your project.
 
 These examples can all be tested by going to the package settings and setting the template field.
 
-### Default
-
-The default template matches the regular Atom titlebar:
+### Filename and project path
 
 ```
 <%= fileName %><% if (projectPath) { %> - <%= projectPath %><% } %>
@@ -51,6 +49,11 @@ The default template matches the regular Atom titlebar:
 
 ```
 <%= fileName %><% if (projectPath) { %> - <%= projectPath %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>
+```
+
+### With project name and current git branch
+```
+<%= fileName %><% if (projectName) { %> - <%= projectName %><% if (gitHead) { %> [<%= gitHead %>]<% } %><% } %>
 ```
 
 ### With hostname and username
