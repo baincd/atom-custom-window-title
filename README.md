@@ -1,6 +1,17 @@
-# custom-window-title package
+# Baincd's custom-window-title
 
-This was forked from the [custom-title](https://github.com/postcasio/custom-title) package as the owner has stopped updating for quite some time while there are stale bugs.
+package name: custom-window-title-baincd
+
+This is a fork of [pixilz's custom-window-title v1.0.4](https://github.com/pixilz/custom-window-title/tree/v1.0.4) with the following enhancements:
+
+* Change `projectPath` (Path to project of open file)
+* Change `projectName` (Directory name of project of open file)
+* Add `projectManagerTitle` (Title from [Project Manager](https://atom.io/packages/project-manager))
+* Add `fileIsModified`
+
+[pixilz's custom-window-title](https://github.com/pixilz/custom-window-title) was forked from the [postcasio's custom-title](https://github.com/postcasio/custom-title) package as the owner has stopped updating for quite some time while there are stale bugs.
+
+---
 
 Set your own template for Atom's title bar. Uses [underscore.js templates](http://underscorejs.org/#template).
 

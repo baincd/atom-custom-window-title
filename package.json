@@ -2,7 +2,7 @@
   "name": "custom-window-title-baincd",
   "main": "./lib/custom-window-title",
   "version": "1.0.4",
-  "description": "Set your own template for Atom's title bar.",
+  "description": "Set your own template for Atom's title bar.  This is a fork and continuation of pixilz's custom-window-title and postcasio's custom-title package",
   "repository": "https://github.com/baincd/atom-custom-window-title",
   "license": "MIT",
   "engines": {
